@@ -1,0 +1,171 @@
+Software Requirement          Specification
+For
+ATM BOOTH MANAGEMENT
+This work is based upon the submission of the summer 2018
+“SWE131: Documentation of Software Engineering”, Department of Software Engineering (22th Batch)
+Submitted To
+Mr. Khaled Been Badruzzaman Biplob
+Lecturer,Department of software Engineering of DIU
+
+# Debashish Roy
+ID :171-35-2050
+# Kanak kumar Sarkar
+ID :171-35-2043
+ 
+
+Decription                                                                                                     Page No
+1.	Chapter 1	03
+1.1	Introduction	03
+1.2	Scope	03
+1.3	Overview	03
+2.	Chapter 2	04
+2.1	User profile: 1	04
+2.2	User profile: 2	04
+3.	Chapter 3	05
+3.1 List of Functional requirement
+(1).3.1.1 Functional requirement: Manager…………………………….	05
+(2).3.1.2 Functional requirement: Customer……………………………	05
+4.	Chapter 4	06
+4.1 Use case diagram
+(1). 4.1.1 Use case diagram: Manager……………………………………	06
+(2). 4.1.1 Use case diagram: Customer……………………………………	07
+
+
+ 
+            Chapter 1
+1.1	Introduction:
+The software ATM  is to be developed for Automated  Teller  Machines  (ATM). An automated teller machine (ATM) is computerized telecommunications device that provides a financial institution's customers a secure method of performing financial transactions, in a public space without the need for a human bank teller. Through ATM, customers interact with a user-friendly interface that enables them to access their bank accounts and perform various transactions.
+
+1.2	Scope:
+This document applies to Automated Teller Machine software ATM . This software facilitates the user to perform various transactions in his account without going  to bank. This software offers benefits such cash withdrawals, balance transfers, deposits, inquiries, credit card advances and other banking related operations for customers. It also allows the administrator to fix the tariffs and rules as and when required…
+
+The software takes as input the login Id and  the  bank account number of the user  for  login purposes. The outputs then comprise of an interactive display that lets  the user  select the desirable function that he wants to perform.
+
+1.3	Overview:
+2	Chapter 2 describes both primary and secondary user profile
+3	Chapter 3 shows the list of functional and non-functional requirement including mind-map and requirement prioritization.
+4	In chapter 4, use case diagram was provided
+ 
+                         Chapter 2
+2.1 User Profile:
+User Class	Notes on Characteristics
+   Type of User	Primary
+ Age range	Up to 18
+  Frequency of use	High
+
+ Mandatory/Discretionary	Discretionary
+ Computer Experience	No
+ Education	Yes
+  Goals	 Poor educated
+ Language Skills	Bangla and English
+Number of Users	
+Training	No
+Other system Used	Yes
+Ways of Working	
+
+
+
+
+
+                               Chapter 3
+3.1 List of Functional Requirement:
+3.1.1  Functional requirement: 
+Manager
+
+Requirement ID	FR.M.1
+Requirement Name	Select who are you?
+Description	Customer or Manager
+
+
+Requirement ID	FR.M.2
+Requirement Name	Sign in
+Description	Manager can log in using user name and password
+
+
+Requirement ID	FR.M.3
+Requirement Name	Manage booth item
+Description	Manger can change password if user forget password or lost their card.Manage every booth system and input money if booth’s is null…..
+
+
+
+3.1.2 Functional requirement: 
+Customer
+
+Requirement ID	FR.C.1
+Requirement Name	Log in or Input Card
+Description	Client or user input card to cheak or transfer money…
+
+
+Requirement ID	FR.C.2
+Requirement Name	Verification
+Description	Client input password or input fingerprint in device...
+
+
+Requirement ID	FR.C.3
+Requirement Name	Withdraw money and Transfer Money 
+Description	Client can withdraw money and transfer money with account number ….
+
+
+
+Requirement ID	FR.C.4
+Requirement Name	Exchange money 
+Description	Client Exchange money from booth…(Dollar to Tk)
+
+
+Requirement ID	FR.C.5
+Requirement Name	Bil payment
+Description	Client can give their electric bill,Gas bill from booth….
+
+
+Requirement ID	FR.C.6
+Requirement Name	Give Feedback 
+Description	Client can give feedback to improve the service….
+
+
+
+3.1.3 Non -functional requirement: 
+Customer:
+
+Requirement ID	FR.C.1
+Requirement Name	ATM Card reader, Keypad, Empty slot,  Empty Envelope,Printer, Display
+Description	For client can access atm booth with atm card,and see the GUI for display, Clear button if client insert wrong input.
+
+
+Requirement ID	FR.C.2
+Requirement Name	Security.
+Description	Client can attempt 3 time for password.
+
+
+Requirement ID	FR.C.3
+Requirement Name	Password time
+Description	Client must insert password within 20sec.
+
+
+
+Requirement ID	FR.C.4
+Requirement Name	Empty pages
+Description	For client can have a money clearance.
+
+
+Requirement ID	FR.C.5
+Requirement Name	Cash Dispenser
+Description	Cash dispenser will open for client.
+
+
+Requirement ID	FR.C.6
+Requirement Name	Security Camera
+Description	Security Camera for extra security.
+
+
+
+            Chapter 4
+4.1	Problems:
+
+1. Card Damage.
+2. Forget password.
+3. If Card blocked in ATM booth.
+4. Insufficient Balance.
+5. If network will slow or terminate.
+6. Transaction sms will not reach at phone.
+7. If clearance paper will null.
+8. If client send money on wrong account number. 
